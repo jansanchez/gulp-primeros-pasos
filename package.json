@@ -1,0 +1,12 @@
+{
+  "name": "gulp-primeros-pasos",
+  "version": "0.0.1",
+  "description": "Gulp: Primeros pasos",
+  "main": "gulpfile.js",
+  "author": "jansanchez",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-uglify": "^0.3.1"
+  }
+}
