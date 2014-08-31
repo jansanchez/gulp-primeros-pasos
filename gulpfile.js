@@ -1,17 +1,17 @@
 /*
-* Declaro mis dependencias
+* Dependencias
 */
 var gulp = require('gulp'),
 	concat = require('gulp-concat'),
 	uglify = require('gulp-uglify');
 
 /*
-* Configuro la tarea 'demo'
+* Configuración de la tarea 'demo'
 */
-
 gulp.task('demo', function () {
 	gulp.src('js/source/*.js')
-	.pipe(concat())
+	.pipe(concat('todo.js'))
 	.pipe(uglify())
-	.pipe(gulp.dest('js/build/todo.js'))
+	.pipe(gulp.dest('js/build/'))
 });
+
