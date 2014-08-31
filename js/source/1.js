@@ -1,0 +1,1 @@
+// contenido del archivo 1.js
