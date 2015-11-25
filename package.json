@@ -6,9 +6,14 @@
   "author": "jansanchez",
   "license": "MIT",
   "devDependencies": {
-    "gulp": "^3.8.7",
-    "gulp-concat": "^2.3.4",
-    "gulp-jshint": "^1.8.4",
-    "gulp-uglify": "^0.3.1"
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-uglify": "^1.5.1",
+    "jshint": "^2.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jansanchez/gulp-primeros-pasos.git"
   }
 }
